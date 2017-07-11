@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
             Dir['lib/**/*.rb'].delete_if {|f| f.include?('.svn')}
   s.platform = Gem::Platform::RUBY
   s.require_path = 'lib'
-  s.add_development_dependency 'tzinfo', '>= 1.0.0'
+  s.add_development_dependency 'tzinfo', '>= 0.3.44'
   s.add_runtime_dependency 'tzinfo', '>= 1.0.0'
   s.extra_rdoc_files = ['README.md', 'LICENSE']
   s.rdoc_options = %w[--title TZInfo::Data --main README.md --exclude definitions --exclude indexes]
